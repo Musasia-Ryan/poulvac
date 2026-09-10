@@ -42,7 +42,7 @@ vaccine_trial  <- read_excel('data/Poulvac_Deidentified_Analysis_Data.xlsx',
 bird_weighing  <- read_excel('data/Poulvac_Deidentified_Analysis_Data.xlsx', 
                              sheet = "bird_weighing")
 farms          <- read_excel('data/Poulvac_Deidentified_Analysis_Data.xlsx', 
-                             sheet = "farms")
+                             sheet = "exit_questionnaire")
 excluded_farms <- read_excel('data/Poulvac_Deidentified_Analysis_Data.xlsx', 
                              sheet = "excluded_farms")
 
