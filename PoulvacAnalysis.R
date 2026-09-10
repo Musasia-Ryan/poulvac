@@ -37,15 +37,14 @@ theme_set(theme_classic(base_size = 12))
 
 
 # loading data ------------------------------------------------------------
-vaccine_trial <- read_excel("data/Poulvac_Master_44farm_Analytical_27_June_2026_Final.xlsx",
-                             sheet = "Poulvac_Vaccine_Trial_Tool_F...")
-bird_weighing <- read_excel("data/Poulvac_Master_44farm_Analytical_27_June_2026_Final.xlsx",
-                             sheet = "bird_weighing_repeat")
-farms <- read_excel("data/Final Exit Farmer Questionnaire _Poulvac Study_June 2026_final August.xlsx",
-                             sheet = "44 Farms")
-excluded_farms <- read_excel("data/Final Exit Farmer Questionnaire _Poulvac Study_June 2026_final August.xlsx",
-                             sheet = "Excluded farms")
-
+vaccine_trial  <- read_excel('data/Poulvac_Deidentified_Analysis_Data.xlsx',
+                             sheet = "vaccine_trial")
+bird_weighing  <- read_excel('data/Poulvac_Deidentified_Analysis_Data.xlsx', 
+                             sheet = "bird_weighing")
+farms          <- read_excel('data/Poulvac_Deidentified_Analysis_Data.xlsx', 
+                             sheet = "farms")
+excluded_farms <- read_excel('data/Poulvac_Deidentified_Analysis_Data.xlsx', 
+                             sheet = "excluded_farms")
 
 # data cleaning -----------------------------------------------------------
 
