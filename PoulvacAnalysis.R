@@ -37,13 +37,13 @@ theme_set(theme_classic(base_size = 12))
 
 
 # loading data ------------------------------------------------------------
-vaccine_trial  <- read_excel('data/Poulvac_Deidentified_Analysis_Data.xlsx',
+vaccine_trial  <- read_excel('data/Poulvac_Data.xlsx',
                              sheet = "vaccine_trial")
-bird_weighing  <- read_excel('data/Poulvac_Deidentified_Analysis_Data.xlsx', 
+bird_weighing  <- read_excel('data/Poulvac_Data.xlsx', 
                              sheet = "bird_weighing")
-farms          <- read_excel('data/Poulvac_Deidentified_Analysis_Data.xlsx', 
+farms          <- read_excel('data/Poulvac_Data.xlsx', 
                              sheet = "exit_questionnaire")
-excluded_farms <- read_excel('data/Poulvac_Deidentified_Analysis_Data.xlsx', 
+excluded_farms <- read_excel('data/Poulvac_Data.xlsx', 
                              sheet = "excluded_farms")
 
 # data cleaning -----------------------------------------------------------
